@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31715" started-at="2019-11-20T12:12:57 IST" finished-at="2019-11-20T12:13:29 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCuke@3d921e20]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="31715" started-at="2019-11-20T12:12:57 IST" finished-at="2019-11-20T12:13:29 IST">
+      <class name="runner.RunCuke">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunCuke@3d921e20]" name="setUpClass" is-config="true" duration-ms="122" started-at="2019-11-20T12:12:57 IST" finished-at="2019-11-20T12:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:runner.RunCuke@3d921e20]" name="setup" is-config="true" duration-ms="0" started-at="2019-11-20T12:12:57 IST" finished-at="2019-11-20T12:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCuke@3d921e20]" name="runScenario" duration-ms="23345" started-at="2019-11-20T12:12:57 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-11-20T12:13:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate search cars page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Acceptance testing to validate Search Cars page is working fine."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunCuke@3d921e20]" name="tearDownClass" is-config="true" duration-ms="213" started-at="2019-11-20T12:13:21 IST" finished-at="2019-11-20T12:13:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunCuke -->
+      <class name="rough.ExtentReportTesting">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:rough.ExtentReportTesting@3234e239]" name="setExtent" is-config="true" duration-ms="173" started-at="2019-11-20T12:12:57 IST" finished-at="2019-11-20T12:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:rough.ExtentReportTesting@3234e239]" name="setUp" is-config="true" duration-ms="6229" started-at="2019-11-20T12:13:21 IST" finished-at="2019-11-20T12:13:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="nopCommerceTitleTest()[pri:0, instance:rough.ExtentReportTesting@3234e239]" name="nopCommerceTitleTest" duration-ms="15" started-at="2019-11-20T12:13:27 IST" finished-at="2019-11-20T12:13:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nopCommerceTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:rough.ExtentReportTesting@3234e239]" name="tearDown" is-config="true" duration-ms="1182" started-at="2019-11-20T12:13:27 IST" finished-at="2019-11-20T12:13:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=nopCommerceTitleTest status=SUCCESS method=ExtentReportTesting.nopCommerceTitleTest()[pri:0, instance:rough.ExtentReportTesting@3234e239] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:rough.ExtentReportTesting@3234e239]" name="endReport" is-config="true" duration-ms="312" started-at="2019-11-20T12:13:28 IST" finished-at="2019-11-20T12:13:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- rough.ExtentReportTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
