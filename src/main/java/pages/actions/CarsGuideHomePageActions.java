@@ -30,5 +30,5 @@ public class CarsGuideHomePageActions {
 	public void moveToReviewsMenu() {
 		Actions action = new Actions(SeleniumDriver.getDriver());
 		action.moveToElement(carsGuideHomePageLocators.reviews).perform();
-	}
+	} 
 }
